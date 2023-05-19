@@ -1,6 +1,10 @@
 #!/bin/bash -e
 
+GREEN="\033[1;32m"
+NO_COLOR="\033[0m"
+
 # Install dependencies
+echo -e "${GREEN}# Installing general dependencies ...${NO_COLOR}"
 sudo apt update -qq
 sudo apt install -qqy curl
 

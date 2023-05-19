@@ -1,9 +1,12 @@
 #!/bin/bash -e
 
+GREEN="\033[1;32m"
+NO_COLOR="\033[0m"
+
 # Dependencies
-echo "# Installing Git dependencies ..."
+echo -e "${GREEN}# Installing Git dependencies ...${NO_COLOR}"
 sudo apt install -qqy vim
 
 # Copies & symlinks
-echo "# Copying Git config files ..."
+echo -e "${GREEN}# Copying Git config files ...${NO_COLOR}"
 cp -u ~/.dotfiles/git/.gitconfig ~/.gitconfig
