@@ -2,13 +2,13 @@
 
 # Install
 echo "# Installing zsh ..."
-sudo apt install -qq zsh
+sudo apt install -qqy zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Dependencies
 echo "# Installing zsh dependencies ..."
-sudo apt install -qq fonts-powerline
+sudo apt install -qqy fonts-powerline
 
 # Symlinks
 echo "# Creating zsh symlinks ..."
