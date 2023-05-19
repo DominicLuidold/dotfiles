@@ -4,7 +4,7 @@
 echo "# Installing zsh ..."
 sudo apt install -qq zsh
 chsh -s $(which zsh)
-sh -c "RUNZSH=no $(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Dependencies
 echo "# Installing zsh dependencies ..."
