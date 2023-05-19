@@ -8,3 +8,4 @@ sudo apt install -qqy curl
 ./scripts/1password.sh
 ./scripts/git.sh
 ./scripts/ssh.sh
+./scripts/zsh.sh
