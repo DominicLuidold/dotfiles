@@ -1,0 +1,13 @@
+[user]
+    name = Dominic Luidold
+[commit]
+    gpgsign = true
+[gpg]
+    format = ssh
+[gpg "ssh"]
+    program = "/opt/1Password/op-ssh-sign"
+    allowedSignersFile = ~/.ssh/allowed_signers
+[core]
+    editor = vim
+[pull]
+    rebase = true
