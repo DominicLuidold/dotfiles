@@ -8,6 +8,9 @@
     program = "/opt/1Password/op-ssh-sign"
     allowedSignersFile = ~/.ssh/allowed_signers
 [core]
+    commentChar = auto
     editor = vim
+[push]
+    autoSetupRemote = true
 [pull]
     rebase = true
