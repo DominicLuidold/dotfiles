@@ -9,4 +9,3 @@ alias gitlab-mr="glab mr create --remove-source-branch --squash-before-merge --p
 
 ## Misc
 alias fix-network="sudo systemctl restart NetworkManager"
-alias update-firefox="tar xjf firefox-*.tar.bz2 && sudo rm -rf /opt/firefox && sudo mv ./firefox /opt/firefox && sudo chown -R 0:0 /opt/firefox && rm firefox-*.tar.bz2"
