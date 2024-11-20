@@ -17,3 +17,5 @@
     autoSetupRemote = true
 [pull]
     rebase = true
+[alias]
+    bb = "!~/.dotfiles/git/better-git-branch.sh"
