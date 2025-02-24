@@ -1,21 +1,31 @@
-[user]
-    name = Dominic Luidold
+[alias]
+    bb = "!~/.dotfiles/git/better-git-branch.sh"
+[branch]
+    sort = -committerdate
 [commit]
     gpgsign = true
+[core]
+    commentChar = auto
+    editor = vim
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
+[fetch]
+    prune = true
+    pruneTags = true
+    all = true
 [gpg]
     format = ssh
 [gpg "ssh"]
     program = "/opt/1Password/op-ssh-sign"
     allowedSignersFile = ~/.ssh/allowed_signers
-[core]
-    commentChar = auto
-    editor = vim
-[fetch]
-    prune = true
-    pruneTags = true
 [push]
     autoSetupRemote = true
 [pull]
     rebase = true
-[alias]
-    bb = "!~/.dotfiles/git/better-git-branch.sh"
+[tag]
+    sort = version:refname
+[user]
+    name = Dominic Luidold
