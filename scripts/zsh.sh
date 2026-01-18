@@ -25,6 +25,6 @@ fi
 # Symlinks
 echo -e "${GREEN}# Creating Oh My Zsh symlinks ...${NO_COLOR}"
 ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/zsh/1password.zsh ~/.oh-my-zsh/custom/1password.zsh
+ln -sf ~/.dotfiles/zsh/1password-cli.zsh ~/.oh-my-zsh/custom/1password-cli.zsh
 ln -sf ~/.dotfiles/zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
 ln -sf ~/.dotfiles/zsh/settings.zsh ~/.oh-my-zsh/custom/settings.zsh
