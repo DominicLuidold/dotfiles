@@ -10,6 +10,7 @@ sudo apt install -qqy curl
 
 # Custom scripts
 ./scripts/1password.sh
+./scripts/docker.sh
 ./scripts/git.sh
 ./scripts/ssh.sh
 ./scripts/zsh.sh
