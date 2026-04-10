@@ -15,7 +15,7 @@ if [ -d ~/.oh-my-zsh ]; then
 else
     # Install Oh My Zsh
     echo -e "${GREEN}# Installing Oh My Zsh ...${NO_COLOR}"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
     # Dependencies
     echo -e "${GREEN}# Installing Oh My Zsh dependencies ...${NO_COLOR}"
